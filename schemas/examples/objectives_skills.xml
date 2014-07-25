@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skills-map>
+    <skills>
+        <skill id="arithmetic_operations_whole">Operations on whole numbers</skill>
+        <skill id="arithmetic_operations_decimal">Operations on decimals</skill>
+        <skill id="arithmetic_operations_subtract">Subtraction operator</skill>
+        <skill id="arithmetic_operations_add">Addition Operator</skill>
+        <skill id="arithmetic_operations_multiply">Multiplication Operator</skill>
+        <skill id="arithmetic_operations_divide">Division Operator</skill>
+        <skill id="arithmetic_operations_communitive">Compare for communitive property</skill>
+        <skill id="arithmetic_operations_subtract_identify">Recognize when to use subtraction</skill>
+        <skill id="arithmetic_operations_divide_identify">Recognize when to use division</skill>
+        <skill id="arithmetic_operations_add_identify">Recognize when to use addition</skill>
+        <skill id="arithmetic_operations_multiply_identify">Recognize when to use multiplication</skill>
+        <skill id="arithmetic_operations_negative_add_negative">Addition with negative values</skill>
+        <skill id="arithmetic_operations_negative_subtract_negative">Subtraction with negative values</skill>
+        <skill id="arithmetic_operations_negative_multiply">Multiplication with negative values</skill>
+        <skill id="arithmetic_operations_negative_divide">Division with negative values</skill>
+        <skill id="arithmetic_operations_negative_less_than">Recognize greater than/less than with negative values</skill>
+    </skills>
+
+    <objectives>
+        <objective id="arithmetic_operations">
+            <description>
+                Apply arithmetic operators to problems involving whole
+                numbers and decimals.
+            </description>
+            <skills>
+                <skill idref="arithmetic_operations_whole"><!-- This is cross-cutting --></skill>
+                <skill idref="arithmetic_operations_decimal"/>
+                <skill idref="arithmetic_operations_subtract"/>
+                <skill idref="arithmetic_operations_add"/>
+                <skill idref="arithmetic_operations_multiply"/>
+                <skill idref="arithmetic_operations_divide"/>
+                <skill idref="arithmetic_operations_communitive"/>
+            </skills>
+        </objective>
+        <objective id="arithmetic_identify">
+            <description>
+                Identify which arithmetic operator to use in a given situation.
+            </description>
+            <skills>
+                <skill idref="arithmetic_operations_whole"><!-- This is cross-cutting --></skill>
+                <skill idref="arithmetic_operations_subtract_identify"/>
+                <skill idref="arithmetic_operations_divide_identify"/>
+                <skill idref="arithmetic_operations_add_identify"/>
+                <skill idref="arithmetic_operations_multiply_identify"/>
+            </skills>
+        </objective>
+        <objective id="arithmetic_operations_negative">
+            <description>
+                Apply arithmetic operations to problems involving
+                negative values.
+            </description>
+            <skills>
+                <skill idref="arithmetic_operations_whole"><!-- This is cross-cutting --></skill>
+                <skill idref="arithmetic_operations_negative_add_negative"/>
+                <skill idref="arithmetic_operations_negative_subtract_negative"/>
+                <skill idref="arithmetic_operations_negative_multiply"/>
+                <skill idref="arithmetic_operations_negative_divide"/>
+                <skill idref="arithmetic_operations_negative_less_than"/>
+            </skills>
+        </objective>
+    </objectives>
+</skills-map>
